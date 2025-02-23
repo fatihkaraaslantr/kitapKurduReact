@@ -1,0 +1,15 @@
+import { Link } from "react-router-dom";
+
+function Home() {
+  return (
+    <div className="container my-5 d-flex flex-column align-items-center gap-5 ">
+      <h2 className="mt-5">Hoş Geldiniz</h2>
+      <img src="/welcome.webp" className="img-fluid rounded image" alt="" />
+      <p className="fw-bold">
+        Ürünler Sayfasında Yeni Çıkan Bütün Kitaplara Ulaşabilirsiniz
+      </p>
+    </div>
+  );
+}
+
+export default Home;
