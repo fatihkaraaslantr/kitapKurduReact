@@ -2,103 +2,303 @@
   "books": [
     {
       "id": 1,
-      "title": "Atomik Alışkanlıklar",
-      "author": "James Clear",
-      "image": "https://picsum.photos/900",
-      "year": 2020,
-      "page": 305,
-      "description": "Küçük değişimlerin büyük sonuçlar doğurabileceğini anlatan etkileyici bir kişisel gelişim kitabı.",
-      "price": 76.32
-    },
-    {
-      "id": 2,
-      "title": "Düşün ve Zengin Ol",
-      "author": "Napoleon Hill",
-      "image": "https://picsum.photos/901",
-      "year": 1937,
-      "page": 320,
-      "description": "Başarı ve zenginlik sırlarını öğrenmek isteyenler için zamansız bir rehber.",
-      "price": 71.86
-    },
-    {
-      "id": 3,
-      "title": "Alışkanlıkların Gücü",
-      "author": "Charles Duhigg",
-      "image": "https://picsum.photos/902",
-      "year": 2012,
-      "page": 400,
-      "description": "Alışkanlıkların beynimizdeki etkilerini inceleyen ilgi çekici bir kitap.",
-      "price": 48.07
-    },
-    {
-      "id": 4,
-      "title": "Sapiens: İnsan Türünün Kısa Bir Tarihi",
-      "author": "Yuval Noah Harari",
-      "image": "https://picsum.photos/903",
-      "year": 2011,
-      "page": 464,
-      "description": "İnsanlık tarihinin başlangıcından günümüze kadar olan serüvenini anlatan sürükleyici bir eser.",
-      "price": 54.04
-    },
-    {
-      "id": 5,
-      "title": "Zamanın Kısa Tarihi",
-      "author": "Stephen Hawking",
-      "image": "https://picsum.photos/904",
-      "year": 1988,
-      "page": 212,
-      "description": "Evrenin sırlarını merak edenler için yazılmış popüler bir bilim klasiği.",
-      "price": 25.1
-    },
-    {
-      "id": 6,
-      "title": "Mutluluk Sanatı",
-      "author": "Dalai Lama",
-      "image": "https://picsum.photos/905",
-      "year": 1998,
-      "page": 352,
-      "description": "Mutlu bir yaşam sürmek için derin öğretiler sunan ilham verici bir kitap.",
-      "price": 64.25
-    },
-    {
-      "id": 7,
-      "title": "Bilinçaltının Gücü",
-      "author": "Joseph Murphy",
-      "image": "https://picsum.photos/906",
-      "year": 1963,
-      "page": 320,
-      "description": "Bilinçaltımızın potansiyelini ortaya çıkarmamıza yardımcı olan bir başyapıt.",
-      "price": 59.45
-    },
-    {
-      "id": 8,
-      "title": "Akıllı Yatırımcı",
-      "author": "Benjamin Graham",
-      "image": "https://picsum.photos/907",
-      "year": 1949,
-      "page": 640,
-      "description": "Finans ve yatırım dünyasına giriş yapmak isteyenler için vazgeçilmez bir rehber.",
-      "price": 80.67
-    },
-    {
-      "id": 9,
-      "title": "Cesur Yeni Dünya",
-      "author": "Aldous Huxley",
-      "image": "https://picsum.photos/908",
-      "year": 1932,
-      "page": 288,
-      "description": "Distopik bir gelecekte geçen ve toplumu sorgulatan çarpıcı bir roman.",
-      "price": 29.75
-    },
-    {
-      "id": 10,
       "title": "1984",
       "author": "George Orwell",
-      "image": "https://picsum.photos/909",
+      "image": "https://picsum.photos/900",
       "year": 1949,
       "page": 328,
       "description": "Baskıcı rejimlerin etkilerini ele alan ve özgürlük kavramını sorgulatan bir klasik.",
       "price": 34.12
+    },
+    {
+      "id": 2,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "image": "https://picsum.photos/901",
+      "year": 1932,
+      "page": 311,
+      "description": "Toplum mühendisliği ve bireysellik üzerine distopik bir roman.",
+      "price": 29.99
+    },
+    {
+      "id": 3,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "image": "https://picsum.photos/902",
+      "year": 1953,
+      "page": 249,
+      "description": "Kitapların yasaklandığı bir dünyada, bir itfaiyecinin değişen bakış açısını konu alır.",
+      "price": 25.49
+    },
+    {
+      "id": 4,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://picsum.photos/903",
+      "year": 1951,
+      "page": 277,
+      "description": "Büyüme sancıları ve yabancılaşma üzerine bir başyapıt.",
+      "price": 22.75
+    },
+    {
+      "id": 5,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://picsum.photos/904",
+      "year": 1925,
+      "page": 180,
+      "description": "Amerikan rüyasını sorgulayan ve 1920'lerin toplumunu eleştiren bir roman.",
+      "price": 18.99
+    },
+    {
+      "id": 6,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://picsum.photos/905",
+      "year": 1960,
+      "page": 281,
+      "description": "Irkçılık ve adalet üzerine güçlü bir hikaye.",
+      "price": 28.3
+    },
+    {
+      "id": 7,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "image": "https://picsum.photos/906",
+      "year": 1851,
+      "page": 585,
+      "description": "Bir adamın beyaz balinayı avlama takıntısını anlatan bir epik roman.",
+      "price": 35.0
+    },
+    {
+      "id": 8,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://picsum.photos/907",
+      "year": 1813,
+      "page": 279,
+      "description": "Aşk, evlilik ve sınıf farkları üzerine derin bir roman.",
+      "price": 24.9
+    },
+    {
+      "id": 9,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "image": "https://picsum.photos/908",
+      "year": -800,
+      "page": 350,
+      "description": "Antik Yunan'ın destanı olan bu eser, bir kahramanın yolculuğunu anlatır.",
+      "price": 32.0
+    },
+    {
+      "id": 10,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "image": "https://picsum.photos/909",
+      "year": 1320,
+      "page": 454,
+      "description": "Cehennem, Araf ve Cennet'te bir yolculuk üzerine ilahi bir şiir.",
+      "price": 39.99
+    },
+    {
+      "id": 11,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "image": "https://picsum.photos/910",
+      "year": 1866,
+      "page": 430,
+      "description": "Bir suçun vicdan üzerindeki etkilerini konu alır.",
+      "price": 31.5
+    },
+    {
+      "id": 12,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "image": "https://picsum.photos/911",
+      "year": 1869,
+      "page": 1225,
+      "description": "Rusya'nın Napolyon savaşlarındaki rolü ve aristokrasinin düşüşü üzerine devasa bir roman.",
+      "price": 44.95
+    },
+    {
+      "id": 13,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "image": "https://picsum.photos/912",
+      "year": 1897,
+      "page": 418,
+      "description": "Korku ve gotik edebiyatın en büyük eserlerinden biri.",
+      "price": 23.5
+    },
+    {
+      "id": 14,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "image": "https://picsum.photos/913",
+      "year": 1890,
+      "page": 254,
+      "description": "Güzellik ve ahlaki çöküşün karşısındaki başyapıt.",
+      "price": 21.99
+    },
+    {
+      "id": 15,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "image": "https://picsum.photos/914",
+      "year": 1862,
+      "page": 1232,
+      "description": "Fransız Devrimi'nin sonrasındaki toplumsal adalet mücadelelerini anlatan dev bir eser.",
+      "price": 42.0
+    },
+    {
+      "id": 16,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "image": "https://picsum.photos/915",
+      "year": 1880,
+      "page": 796,
+      "description": "Ahlak, din ve insanın doğasına dair derin felsefi bir tartışma.",
+      "price": 38.99
+    },
+    {
+      "id": 17,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "image": "https://picsum.photos/916",
+      "year": 1877,
+      "page": 864,
+      "description": "Aşk, sadakat ve toplumsal normların çatışması üzerine bir Rus klasik eseri.",
+      "price": 40.0
+    },
+    {
+      "id": 18,
+      "title": "The Metamorphosis",
+      "author": "Franz Kafka",
+      "image": "https://picsum.photos/917",
+      "year": 1915,
+      "page": 150,
+      "description": "Bir adamın, bir sabah dev bir böceğe dönüşmesiyle başlayan tuhaf bir hikaye.",
+      "price": 18.0
+    },
+    {
+      "id": 19,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "image": "https://picsum.photos/918",
+      "year": 1967,
+      "page": 417,
+      "description": "Ailesinin nesiller boyu süren garipliklerini anlatan bir büyülü gerçekçilik eseri.",
+      "price": 30.5
+    },
+    {
+      "id": 20,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://picsum.photos/919",
+      "year": 1937,
+      "page": 310,
+      "description": "Bir hobbitin, kahramanlık yolculuğuna çıkmasını anlatan fantastik bir eser.",
+      "price": 26.75
+    },
+    {
+      "id": 21,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://picsum.photos/920",
+      "year": 1951,
+      "page": 277,
+      "description": "Büyüme sancıları ve yabancılaşma üzerine bir başyapıt.",
+      "price": 22.75
+    },
+    {
+      "id": 22,
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "image": "https://picsum.photos/921",
+      "year": 1942,
+      "page": 123,
+      "description": "Anlam arayışını ve yabancılaşmayı konu alan bir varoluşsal roman.",
+      "price": 19.99
+    },
+    {
+      "id": 23,
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://picsum.photos/922",
+      "year": 1949,
+      "page": 328,
+      "description": "Baskıcı rejimlerin etkilerini ele alan ve özgürlük kavramını sorgulatan bir klasik.",
+      "price": 34.12
+    },
+    {
+      "id": 24,
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "image": "https://picsum.photos/923",
+      "year": 1969,
+      "page": 275,
+      "description": "Savaşın anlamsızlığını ve travmalarını ele alan bir anti-savaş romanı.",
+      "price": 27.0
+    },
+    {
+      "id": 25,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "image": "https://picsum.photos/924",
+      "year": 2006,
+      "page": 287,
+      "description": "Bir baba ve oğlunun kıyamet sonrası hayatta kalma mücadelesini anlatan bir dram.",
+      "price": 29.99
+    },
+    {
+      "id": 26,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "image": "https://picsum.photos/925",
+      "year": 1977,
+      "page": 447,
+      "description": "Bir otelde geçen korkunç bir hikaye, psikolojik korku ve gerilim.",
+      "price": 28.99
+    },
+    {
+      "id": 27,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "image": "https://picsum.photos/926",
+      "year": 1954,
+      "page": 1216,
+      "description": "Büyü, dostluk ve kahramanlıkla dolu epik bir fantastik seri.",
+      "price": 40.99
+    },
+    {
+      "id": 28,
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://picsum.photos/927",
+      "year": 2019,
+      "page": 325,
+      "description": "Bir kadının sessizliğini ve ardındaki gizemi çözmeye çalışan bir psikolojik gerilim.",
+      "price": 22.5
+    },
+    {
+      "id": 29,
+      "title": "The Goldfinch",
+      "author": "Donna Tartt",
+      "image": "https://picsum.photos/928",
+      "year": 2013,
+      "page": 771,
+      "description": "Bir gencin sanat, kayıp ve travma yolculuğu.",
+      "price": 37.0
+    },
+    {
+      "id": 30,
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "image": "https://picsum.photos/929",
+      "year": 1985,
+      "page": 311,
+      "description": "Kadınların köleleştirildiği distopik bir geleceği anlatan bir başyapıt.",
+      "price": 32.99
     }
   ]
 }

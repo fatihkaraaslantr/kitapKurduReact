@@ -25,3 +25,7 @@ Bu proje, React.js ile geliştirilmiş bir kitap yönetim uygulamasıdır. JSON 
 <h6>🎯 Deneyimler:</h6>
 
 🧠 Bu proje sayesinde React Router DOM kullanımı üzerine önemli deneyimler edindim. Çok sayfalı yapılar, dinamik routing, Link & NavLink metodları ve API yönetimi konusunda kendimi geliştirme fırsatı buldum. Ayrıca Axios ile veri çekme ve yönetme, dinamik sıralama ve arama fonksiyonları gibi konularda daha derinlemesine pratik yaparak React ekosistemine olan hakimiyetimi artırdım.
+
+<h1>🎬 Ekran Görüntüsü</h1>
+
+![](./src/assets/project.gif)
