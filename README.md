@@ -13,9 +13,13 @@ Bu proje, React.js ile geliştirilmiş bir kitap yönetim uygulamasıdır. JSON 
 <h2>🛠️ Kullanılan Teknolojiler:</h2>
 
 -⚛️ React – Component yapıları ve state yönetimi için
+
 -🌍 React Router DOM – Çok sayfalı yapı oluşturmak için
+
 -📡 Axios – API işlemlerini yönetmek için
+
 -💾 JSON Server – Backend ihtiyacını karşılamak için
+
 -🎨 CSS – Şık ve responsive bir tasarım için
 
 <h6>🎯 Deneyimler:</h6>
